@@ -10,16 +10,21 @@ ion-grid {
 	background-color: #ed0000;
 }
 
+ion-row {
+
+}
+
 ion-col {
-	
+ height: 25vh;
 }
 
 .cell {
-
 	background-color: #ffb700;
 	border: 3px;
 	border-style: solid;
 	border-color: #ed0000;
-	
+}
 
+ion-icon {
+	width: 50%;
 }
