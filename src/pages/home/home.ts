@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
-import { CellComponent } from '../../components/cell';
+import { CellComponent } from '../../components/cell/cell';
 
 @Component({
   selector: 'page-home',
