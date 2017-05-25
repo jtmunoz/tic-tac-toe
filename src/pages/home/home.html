@@ -7,21 +7,21 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid center fixed>
+  <ion-grid center >
   	<ion-row>
-  		<ion-col text-center width-33 class="cell"></ion-icon></ion-col>
-  		<ion-col text-center width-33 class="cell">1</ion-col>
-  		<ion-col text-center width-33 class="cell">2</ion-col>
+  		<ion-col page-home (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
   	</ion-row>
   	<ion-row>
-  		<ion-col text-center width-33 class="cell">3</ion-col>
-  		<ion-col text-center width-33 class="cell">4</ion-col>
-  		<ion-col text-center width-33 class="cell">5</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
   	</ion-row>
   	<ion-row>
-  		<ion-col text-center width-33 class="cell">6</ion-col>
-  		<ion-col text-center width-33 class="cell">7</ion-col>
-  		<ion-col text-center width-33 class="cell">8</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
+  		<ion-col text-center (click)="placeCell()">{{clickMessage}}</ion-col>
   	</ion-row>
   </ion-grid>
 </ion-content>
