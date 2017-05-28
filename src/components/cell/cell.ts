@@ -12,10 +12,10 @@ import { Component } from '@angular/core';
 })
 export class CellComponent {
 
-  clickMessage = '';
+  // clickMessage = '';
 
   placeCell() {
-    this.clickMessage = 'X'
+    return 'X';
   }
 
 }
