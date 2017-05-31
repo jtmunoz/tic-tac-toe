@@ -10,7 +10,7 @@ import { RowComponent  } from '../../components/row/row';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
-  entryComponents: [CellComponent, RowComponent]
+  entryComponents: [RowComponent]
 })
 
 	// let cell: new CellComponent
@@ -22,6 +22,9 @@ export class HomePage {
 	
 	clickMessage ='';
 
+	placeCell() {
+		this.clickMessage = 'X'
+	}
 	
 }
 

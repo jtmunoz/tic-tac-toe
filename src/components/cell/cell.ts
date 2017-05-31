@@ -11,11 +11,9 @@ import { Component } from '@angular/core';
   templateUrl: 'cell.html'
 })
 export class CellComponent {
+  clickMessage = '';
 
-  // clickMessage = '';
+ 
 
-  placeCell() {
-    return 'X';
-  }
-
+  
 }

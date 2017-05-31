@@ -6,7 +6,7 @@ import { HomePage } from '../pages/home/home';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { CellComponent } from '../components/cell/cell';
-import { RowComponent  } from '../components/row/row';
+import { RowComponent } from '../components/row/row';
 
 
 @NgModule({
