@@ -15,8 +15,10 @@ ion-row {
 }
 
 ion-col {
-	height: 25vw;
- 	width: 25vw;
+	background-color: #ed0000;
+	border: 5px solid #ffb700;
+	// height: 25vh;
+ // 	width: 25vh;
 }
 
 
@@ -26,8 +28,8 @@ ion-icon {
 
 @media (min-width: 700px) and (orientation: landscape) { 
 	ion-col {
-		height: 25vh;
- 		width: 25vh;
+		// height: 25vh;
+ 	// 	width: 25vh;
 	} 
 }
 
