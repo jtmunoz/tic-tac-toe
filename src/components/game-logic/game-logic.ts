@@ -15,4 +15,22 @@ export class GameLogic {
     console.log('Hello GameLogic Directive');
   }
 
+  determineDifficulty(event){
+  	if (event === "easy") {
+  		//pick random that is available
+  		easy()
+  	} else if ( event === "medium") {
+  		// tries to choose three in a row
+  		medium()
+  	} else if ( event === "insane") {
+  		//goes for the win or tie
+  		insane()
+  	}
+  }
+
+  easy(){}
+
+  medium(){}
+
+  insane(){}
 }
