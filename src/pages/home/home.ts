@@ -23,7 +23,7 @@ export class HomePage {
 	clickMessage ='';
 
 	placeCell() {
-		this.clickMessage = 'X'
+		this.clickMessage = "close"
 	}
 	
 }

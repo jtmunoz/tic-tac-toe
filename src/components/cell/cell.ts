@@ -11,9 +11,9 @@ import { Component } from '@angular/core';
   templateUrl: 'cell.html'
 })
 export class CellComponent {
-  clickMessage = '';
+  playerValue = '';
 
- 
+  
 
   
 }
