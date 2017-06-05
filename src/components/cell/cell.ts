@@ -11,8 +11,11 @@ import { Component } from '@angular/core';
   templateUrl: 'cell.html'
 })
 export class CellComponent {
-  playerValue = '';
+  cellValue = '';
 
+  determineValue(){
+  	this.cellValue = 'X'
+  }
   
 
   
