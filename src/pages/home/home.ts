@@ -21,6 +21,7 @@ export class HomePage {
 	constructor(public navCtrl: NavController) {}
 	
 	clickMessage ='';
+	// <ion-icon name="radio-button-off"></ion-icon>
 
 	placeCell() {
 		this.clickMessage = "close"
