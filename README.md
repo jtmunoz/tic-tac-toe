@@ -1,3 +1,4 @@
 # tic-tac-toe
 
-TIC TAC TOE built with IONIC 2 and Angular 2
+TIC TAC TOE app built with IONIC 2 and Angular 2
+
