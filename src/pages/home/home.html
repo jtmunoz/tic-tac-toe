@@ -7,7 +7,16 @@
 </ion-header>
 
 <ion-content>
-  <ion-button></ion-button> 
+  <ion-list>
+    <ion-item>
+      <ion-label>X</ion-label>
+      <ion-checkbox [(ngModel)]="x"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>O</ion-label>
+      <ion-checkbox [(ngModel)]="o"></ion-checkbox>
+    </ion-item>
+  </ion-list>
 </ion-content>
  
 <!--   <ion-grid center>
