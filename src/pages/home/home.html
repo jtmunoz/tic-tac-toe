@@ -7,14 +7,14 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
+  <ion-list radio-group>
     <ion-item>
       <ion-label>X</ion-label>
-      <ion-checkbox [(ngModel)]="x"></ion-checkbox>
+      <ion-radio checked="true" value="x"></ion-radio>
     </ion-item>
     <ion-item>
       <ion-label>O</ion-label>
-      <ion-checkbox [(ngModel)]="o"></ion-checkbox>
+      <ion-radio value="o"></ion-radio>
     </ion-item>
   </ion-list>
 </ion-content>
