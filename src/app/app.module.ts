@@ -19,7 +19,9 @@ import { GamePage } from '../pages/game/game';
     MyApp,
     HomePage,
     CellComponent,
-    RowComponent
+    RowComponent,
+    GamePage
+
   ],
   imports: [
     IonicModule.forRoot(MyApp)
