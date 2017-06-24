@@ -11,11 +11,11 @@
   <ion-list radio-group>
     <ion-item>
       <ion-label>X</ion-label>
-      <ion-radio value="x"></ion-radio>
+      <ion-radio value="x" [ngModel]="choice" (ngModelChange)="choice = $event"></ion-radio>
     </ion-item>
     <ion-item>
       <ion-label>O</ion-label>
-      <ion-radio value="o"></ion-radio>
+      <ion-radio value="o" [ngModel]="choice" (ngModelChange)="choice = $event"></ion-radio>
     </ion-item>
   </ion-list>
 
@@ -27,56 +27,3 @@
 
 </ion-content>
  
-<!--   <ion-grid center>
-   <ion-row align-items-center>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  	</ion-row>
-  	<ion-row>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  	</ion-row>
-  	<ion-row>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  		<ion-col width-33 class="parent" text-center (click)="placeCell()">
-        <div class="child">
-          <ion-icon name={{clickMessage}}></ion-icon>
-        </div>
-      </ion-col>
-  	</ion-row>
-  </ion-grid> -->
