@@ -5,6 +5,11 @@ import { NavController, NavParams} from 'ionic-angular';
 import { CellComponent } from '../../components/cell/cell';
 import { RowComponent  } from '../../components/row/row';
 import { GamePage } from '../game/game';
+import { FormsModule} from '@angular/forms';
+
+
+
+
 
 
 @Component({
@@ -15,18 +20,17 @@ import { GamePage } from '../game/game';
 
 export class HomePage {	
 	constructor(private navController: NavController, private navParams: NavParams) {}
-	pushPage(){
+
+	choice: String;
+
+	pushPage(event){
     this.navController.push(GamePage,{
-    	choice: ''
+    	choice: 'll'
     });
   }
 
-	clickMessage ='';
-	// <ion-icon name="radio-button-off"></ion-icon>
 
-	placeCell() {
-		this.clickMessage = "close"
-	}
+
 	
 }
 

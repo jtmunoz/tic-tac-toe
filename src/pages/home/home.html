@@ -8,22 +8,26 @@
 
 <ion-content>
 
-  <ion-list radio-group>
-    <ion-item>
-      <ion-label>X</ion-label>
-      <ion-radio value="x" [ngModel]="choice" (ngModelChange)="choice = $event"></ion-radio>
-    </ion-item>
-    <ion-item>
-      <ion-label>O</ion-label>
-      <ion-radio value="o" [ngModel]="choice" (ngModelChange)="choice = $event"></ion-radio>
-    </ion-item>
-  </ion-list>
+  
 
-  <ion-row col-4>
-    <button ion-button color="danger" round (click)=pushPage()>
-      <ion-icon name="ios-game-controller-a"></ion-icon>&nbsp;Play Game
-    </button>
-  </ion-row>
+    <ion-list radio-group>
+      <ion-item>
+        <ion-label>X</ion-label>
+        <ion-radio choice='X' [(ngModel)]="data.choice"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>O</ion-label>
+        <ion-radio choice='O' [(ngModel)]="data.choice"></ion-radio>
+      </ion-item>
+    </ion-list>
+
+    <ion-row col-4>
+      <button ion-button color="danger" round (click)=pushPage()>
+        <ion-icon name="ios-game-controller-a"></ion-icon>&nbsp;Play Game
+      </button>
+    </ion-row>
+
+
 
 </ion-content>
  
