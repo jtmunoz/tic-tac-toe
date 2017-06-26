@@ -13,10 +13,12 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class GamePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  choice1: string;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad GamePage');
-  }
+  constructor(private navController: NavController, private navParams: NavParams) {
+    this.choice1 = navParams.get('choice'); 
+  }    
+ 
+
 
 }
