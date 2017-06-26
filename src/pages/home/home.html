@@ -8,16 +8,16 @@
 
 <ion-content>
 
-  
+  <form [formGroup]="myForm" (submit)="saveForm($event)">  
 
     <ion-list radio-group>
       <ion-item>
         <ion-label>X</ion-label>
-        <ion-radio choice='X' [(ngModel)]="data.choice"></ion-radio>
+        <ion-radio ng-model="" name="choice"></ion-radio>
       </ion-item>
       <ion-item>
         <ion-label>O</ion-label>
-        <ion-radio choice='O' [(ngModel)]="data.choice"></ion-radio>
+        <ion-radio ng-model="" name="choice"></ion-radio>
       </ion-item>
     </ion-list>
 
@@ -27,6 +27,7 @@
       </button>
     </ion-row>
 
+  </form>
 
 
 </ion-content>
